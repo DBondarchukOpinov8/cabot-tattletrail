@@ -1,7 +1,7 @@
 {
     "name": "Heroku Cabot",
     "description": "Run Cabot on Heroku in a single dyno",
-    "repository": "https://github.com/jorgenevens/heroku-cabot",
+    "repository": "https://github.com/DBondarchukOpinov8/cabot-tattletrail",
     "logo": "https://raw.githubusercontent.com/arachnys/cabot/master/cabot/static/arachnys/img/icon_96x96.png",
     "keywords": ["cabot", "cabotapp", "monitoring", "uptime"],
     "website": "https://cabotapp.com",
