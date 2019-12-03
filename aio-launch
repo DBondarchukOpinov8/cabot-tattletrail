@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+# Use the REDIS_URL as cache if Celery is not configured
+export CELERY_BROKER_URL="${CELERY_BROKER_URL:-$REDIS_URL}"
+
+# Run cabot with all services in a single container
+gunicorn cabot.wsgi:application -b 0.0.0.0:$PORT &
+celery worker -A cabot &
+celery beat -A cabot &
+
+echo "Cabot container booted!"
+wait
