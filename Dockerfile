@@ -9,6 +9,7 @@ RUN pip install -i https://test.pypi.org/simple/ cabot-check-tattletrail==0.3.1
 
 RUN pip install --no-cache-dir \
         cabot-check-sslcert \
+	cabot-check-tattletrail \
         cabot-alert-slack \
         https://github.com/cabotapp/cabot-check-network/archive/master.zip \
         ;
