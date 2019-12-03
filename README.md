@@ -16,11 +16,3 @@ This will create an app in your Heroku account with a free Redis and Postgres ad
 2. Push this repository to the Heroku app
 3. (optional) Add a [Redis](https://elements.heroku.com/addons/heroku-redis) and a [Postgres](https://elements.heroku.com/addons/heroku-postgresql) add-on
 4. Configure the environment variables, [official example](https://github.com/arachnys/cabot/blob/master/conf/production.env.example)
-
-## Contributing
-
-I really appreciate any contribution you would like to make, so don't hesitate to report an issue or submit pull requests.
-
-## About me
-
-Hi, my name is [Jorgen Evens](https://jorgen.evens.eu). By day I built things (mainly in PHP and JavaScript) for [Ambassify](https://ambassify.com) and by night I tinker around with these kinds of projects.
