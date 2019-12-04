@@ -4,8 +4,6 @@ FROM cabotapp/cabot
 RUN apk add --no-cache \
         curl \
         curl-dev
-
-RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 	
 RUN pip install -i https://test.pypi.org/simple/ cabot-check-tattletrail==0.3.1	
 
