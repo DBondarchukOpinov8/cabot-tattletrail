@@ -9,6 +9,10 @@
     "stack": "container",
     "addons": ["heroku-postgresql:hobby-dev", "heroku-redis:hobby-dev"],
     "env": {
+        "CABOT_PLUGINS_ENABLED": {
+            "description": "Additional plugins",
+            "value": "cabot_check_tattletrail"
+        },
         "REDIS_URL": {
             "description": "TattleTrail Redis host",
             "required": true
