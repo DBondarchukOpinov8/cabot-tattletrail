@@ -15,3 +15,5 @@ RUN pip install --no-cache-dir \
         ;
 
 ADD aio-launch /aio-launch
+
+RUN ["chmod", "+x", "/aio-launch"]
