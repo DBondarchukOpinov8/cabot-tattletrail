@@ -21,4 +21,4 @@ variables. Redis connection credentials will be used for tattletrail check plugi
 
 ### Credits to:
 
-Big thanks to @Jorgen Evens and his amazing example https://github.com/JorgenEvens/heroku-cabot
+Big thanks to Jorgen Evens and his amazing example https://github.com/JorgenEvens/heroku-cabot
