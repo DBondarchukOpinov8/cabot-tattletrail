@@ -6,4 +6,4 @@ release:
   command:
     - cabot migrate
 run:
-  web: /aio-launch
+  web: chmod +x /aio-launch
