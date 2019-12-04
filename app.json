@@ -15,7 +15,6 @@
         },
         "REDIS_PASS": {
             "description": "TattleTrail Redis password",
-            "generator": "secret",
             "required": true
         },
         "REDIS_PORT": {
