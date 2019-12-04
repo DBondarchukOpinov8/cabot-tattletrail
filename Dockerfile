@@ -4,6 +4,8 @@ FROM cabotapp/cabot
 RUN apk add --no-cache \
         curl \
         curl-dev
+
+RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 	
 RUN pip install -i https://test.pypi.org/simple/ cabot-check-tattletrail==0.3.1	
 
@@ -12,6 +14,6 @@ RUN pip install --no-cache-dir \
 	cabot-check-tattletrail==0.3.1 \
         cabot-alert-slack \
         https://github.com/cabotapp/cabot-check-network/archive/master.zip \
-        ;
+        ;	
 
 ADD aio-launch /aio-launch
