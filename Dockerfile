@@ -13,7 +13,5 @@ RUN pip install --no-cache-dir \
         cabot-alert-slack \
         https://github.com/cabotapp/cabot-check-network/archive/master.zip \
         ;
-	
-RUN chmod +x aio-launch	
 
 ADD aio-launch /aio-launch
