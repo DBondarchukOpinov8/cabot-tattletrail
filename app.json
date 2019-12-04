@@ -13,7 +13,7 @@
             "description": "Additional plugins",
             "value": "cabot_check_tattletrail"
         },
-        "REDIS_URL": {
+        "REDIS_HOST": {
             "description": "TattleTrail Redis host",
             "required": true
         },
