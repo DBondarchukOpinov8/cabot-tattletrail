@@ -64,6 +64,11 @@
             "description": "Scheme to use for requests (https or http)",
             "required": true,
             "value": "https"
+        },
+        "Tattletrail_URL": {
+            "description": "Tattletrail API URL",
+            "required": true,
+            "value": "https"
         }
     }
 }
