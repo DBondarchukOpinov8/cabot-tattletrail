@@ -67,8 +67,7 @@
         },
         "Tattletrail_URL": {
             "description": "Tattletrail API URL",
-            "required": true,
-            "value": "https"
+            "required": true
         }
     }
 }
