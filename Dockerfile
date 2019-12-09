@@ -5,11 +5,11 @@ RUN apk add --no-cache \
         curl \
         curl-dev
 	
-RUN pip install -i https://test.pypi.org/simple/ cabot-check-tattletrail==0.7.8
+RUN pip install -i https://test.pypi.org/simple/ cabot-check-tattletrail==0.7.9
 
 RUN pip install --no-cache-dir \
         cabot-check-sslcert \
-	cabot-check-tattletrail==0.7.8 \
+	cabot-check-tattletrail==0.7.9 \
         cabot-alert-slack \
         https://github.com/cabotapp/cabot-check-network/archive/master.zip \
         ;
