@@ -25,6 +25,10 @@
             "description": "TattleTrail Redis port",
             "required": true
         },
+        "AUTH_TOKEN": {
+            "description": "TattleTrail AUTH token",
+            "required": true
+        },
         "DJANGO_SECRET_KEY": {
             "description": "Django secret key",
             "generator": "secret"
